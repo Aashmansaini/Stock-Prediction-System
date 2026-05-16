@@ -1,0 +1,7 @@
+# Treat frontend as vendored so Python dominates stats
+tradeflow-dashboard/* linguist-vendored
+node_modules/* linguist-vendored
+
+# Optional: prevent stray JS/JSX from dominating
+*.js linguist-detectable=false
+*.jsx linguist-detectable=false
